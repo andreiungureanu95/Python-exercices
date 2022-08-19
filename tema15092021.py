@@ -3,15 +3,15 @@ x = 5
 y = 10
 print(f'Suma numerelor {x} si {y} este ', x+y)
 
-#2. Creați cȃte o variabilă de tipul: string, int și float, după cum urmează:
-# Variabila de tip int va reține valoarea 20.
-# Variabila de tip float va reține valoarea 10.
-# Variabila de tip string reține valoarea “python”.
+#2. Create a variable of type: string, int and float, as follows:
+# The int variable will hold the value 20.
+# The float variable will hold the value 10.
+# The string variable holds the value "python".
 x_int = 20
 y_float = 10.0
 z_string = "python"
 
-#3. Utilizȃnd funcția type, determinați tipul următoarelor variabile:
+#3. Using the type function, determine the type of the following variables:
 restanta = 0
 notaFinala = 10.0
 laborator = "Introducere in informatica"
@@ -19,8 +19,8 @@ print(type(restanta))
 print(type(notaFinala))
 print(type(laborator))
 
-# # 4.Verificaţi dacă un cuvânt este palindrom. Un cuvânt este palindrom dacă scris de la dreapta la
-# #stanga, este tot acel cuvânt.(folositi assert pt verificare)
+# # 4. Check if a word is a palindrome. A word is palindrome if written from right to
+# #left, it's all that word. (use assert to check)
 palindrom = input ("Stringul pe care doresti sa il verificam este:")
 assert palindrom == palindrom[::-1]
 
@@ -34,8 +34,8 @@ x = int(input("Primul numar este:"))
 y = int(input("Al doilea numar este:"))
 print(f"Produsul numerelor {x} si {y} este:", x*y)
 
-print("6.Check if the first and last character of a string  is the same stringul il cititi de la tastatura")
-text = input("Stringul este:")
+print("6.Check if the first and last character of a string  is the same stringul")
+text = input("Stringul is:")
 assert text[0] == text[len(text)-1]
 
 print("7. Write a program to find how many times substring “Emma” appears in the given string.")
